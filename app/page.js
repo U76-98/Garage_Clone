@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-fit md:w-320 h-fit bg-white rounded-2xl m-[-30px] flex md:flex-row flex-col items-center justify-center p-5 text-black">
+      <div className="w-fit md:w-320 h-fit bg-white rounded-2xl m-[-30px] flex md:flex-row flex-col items-center justify-center p-5 text-black dark:bg-black dark:border-1 border-red-600 dark:text-white">
 
           <div className="w-1/4 h-full flex flex-col items-center justify-center p-5">
             <h1 className="text-6xl font-bold">600+</h1>
@@ -78,25 +78,25 @@ export default function Home() {
 
       </div>
 
-      <div className="w-full h-fit bg-white mt-30 rounded-4xl flex flex-col items-center justify-center">
+      <div className="w-full h-fit bg-white mt-30 rounded-4xl flex flex-col items-center justify-center text-black dark:bg-black dark:border-1 border-red-600 dark:text-white">
 
         <h1 className="text-xl text-red-600 mt-26">LATEST SERVICE</h1>
-        <h1 className="md:text-5xl text-2xl text-black font-bold mt-5">Your Trusted Car Provider</h1>
-        <h1 className="md:text-5xl text-2xl text-black font-bold mt-2">Keeping Your Vehicle</h1>
+        <h1 className="md:text-5xl text-2xl font-bold mt-5">Your Trusted Car Provider</h1>
+        <h1 className="md:text-5xl text-2xl font-bold mt-2">Keeping Your Vehicle</h1>
 
         <div className="w-18/20 h-4/10 mt-18 flex flex-col md:flex-row justify-between items-center md:items-start space-y-5 pb-20">
-          <div className="p-8 text-center h-full md:w-30/100 border-2 border-black rounded-4xl transition-colors duration-300 hover:bg-black text-black hover:text-white flex flex-col items-center justify-center">
+          <div className="p-8 text-center h-full md:w-30/100 border-2 border-black rounded-4xl transition-colors duration-300 hover:bg-black hover:text-white flex flex-col items-center justify-center dark:border-white dark:hover:text-black dark:hover:bg-white">
             <h1 className="font-bold text-3xl">Transformation Advising</h1>
             <h1 className="text-xl mt-5">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</h1>
           </div>
 
-          <div className="p-8 text-center h-full md:w-30/100 border-2 border-black rounded-4xl transition-colors duration-300 hover:bg-black text-black hover:text-white flex flex-col items-center justify-center">
+          <div className="p-8 text-center h-full md:w-30/100 border-2 border-black rounded-4xl transition-colors duration-300 hover:bg-black hover:text-white flex flex-col items-center justify-center dark:border-white dark:hover:text-black dark:hover:bg-white">
             <h1 className="font-bold text-3xl">Elite Auto</h1>
             <h1 className="font-bold text-3xl">Services</h1>
             <h1 className="text-xl mt-5">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</h1>
           </div>
 
-          <div className="p-8 text-center h-full md:w-30/100 border-2 border-black rounded-4xl transition-colors duration-300 hover:bg-black text-black hover:text-white flex flex-col items-center justify-center">
+          <div className="p-8 text-center h-full md:w-30/100 border-2 border-black rounded-4xl transition-colors duration-300 hover:bg-black hover:text-white flex flex-col items-center justify-center dark:border-white dark:hover:text-black dark:hover:bg-white">
             <h1 className="font-bold text-3xl">Easy Drive Maintainance</h1>
             <h1 className="text-xl mt-5">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</h1>
           </div>
@@ -104,14 +104,14 @@ export default function Home() {
       </div>
 
       <div className="w-full h-fit md:p-20">
-        <div className="w-full h-fit flex flex-col md:flex-row items-center justify-center">
+        <div className="w-full h-fit flex flex-col md:flex-row items-center justify-center text-black dark:text-white">
           <div className="md:w-[50%] h-full p-10 md:p-0">
-            <h1 className="text-red-600 font-mono pt-20">ABOUT US</h1>
-            <h1 className="text-black md:text-5xl text-3xl font-bold mt-3">Fast and Reliable Car Care</h1>
-            <h1 className="text-black md:text-5xl text-3xl font-bold mt-2">Your Car Our Priority</h1>
-            <h1 className="text-black text-xl mt-8">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes</h1>
+            <h1 className="text-red-600 font-mono">ABOUT US</h1>
+            <h1 className="md:text-5xl text-3xl font-bold mt-3">Fast and Reliable Car Care</h1>
+            <h1 className="md:text-5xl text-3xl font-bold mt-2">Your Car Our Priority</h1>
+            <h1 className="text-xl mt-8">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes</h1>
 
-            <ul className="text-black text-xl mt-10 list-disc list-inside font-bold space-y-5">
+            <ul className="text-xl mt-10 list-disc list-inside font-bold space-y-5">
               <li>Fast and Reliable Car Care Your Car Our Priority</li>
               <li>Free with Our Services Care for Your Car</li>
               <li>Top-notch Care for Your Vehicle Your Vehicle</li>
@@ -119,7 +119,7 @@ export default function Home() {
               <li>Your Trusted Car Service Provider Keeping</li>
             </ul>
           </div>
-          <div className="w-[50%] h-full md:flex items-center justify-center hidden md:block">
+          <div className="w-[50%] h-full hidden md:block md:flex justify-center items-center">
             <img
             src="https://themehealer.com/php-template/crank-php/assets/images/resources/about-one-img-1.jpg"
             className="rounded-4xl hidden md:block">
@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[#171717] w-fit md:flex flex-row rounded-4xl hidden md:block" >
+      <div className="bg-[#171717] w-fit md:flex flex-row rounded-4xl hidden md:block dark:border-1 border-red-600" >
         <img src="https://themehealer.com/php-template/crank-php/assets/images/brand/brand-1-4.png" className="p-10"></img>
         <img src="https://themehealer.com/php-template/crank-php/assets/images/brand/brand-1-3.png" className="p-10"></img>
         <img src="https://themehealer.com/php-template/crank-php/assets/images/brand/brand-1-1.png" className="p-10"></img>
@@ -139,7 +139,7 @@ export default function Home() {
       <div className="w-full h-fit p-22 hidden md:block">
         <div className="w-full h-fit flex flex-col">
           <h1 className="text-red-600 font-mono">LATEST GALLERY</h1>
-          <div className="text-black flex flex-col md:flex-row justify-between items-center w-full h-[20%]">
+          <div className="text-black flex flex-col md:flex-row justify-between items-center w-full h-[20%] dark:text-white">
             <h1 className="w-[40%] h-full font-bold text-4xl">Quality Service, Every Time Drive Safe Stay Secure</h1>
             <h1 className="w-[40%] h-full text-xl mt-12">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes</h1>
           </div>
@@ -169,12 +169,12 @@ export default function Home() {
       </div>
 
       <div className="w-full h-fit py-22 md:p-22 md:mt-[-120px]">
-        <div className="w-full h-fit flex flex-col items-center text-black">
+        <div className="w-full h-fit flex flex-col items-center text-black dark:text-white">
           <h1 className="text-red-600 font-mono">Pricing Plan</h1>
           <h1 className="font-bold text-2xl md:text-5xl mt-2">Our Pricing Plan</h1>
 
           <div className="flex flex-col md:flex-row w-full mt-10 justify-between px-2">
-             <div className="md:w-[32%] flex flex-col bg-white md:rounded-4xl p-10">
+             <div className="md:w-[32%] flex flex-col bg-white md:rounded-4xl p-10 dark:bg-black">
               <h1 className="text-4xl font-bold">Free</h1>
               <p className="mt-2">Car service is essential for maintaining performance and longevity of vehicle. From oil changes</p>
 
@@ -190,10 +190,10 @@ export default function Home() {
                 <li>Your Event, Your Memories</li>
               </ul>
 
-              <button className="bg-[#EEEEEE] p-5 rounded-full font-bold hover:bg-black hover:text-white transition duration-300">GET STARTED NOW</button>
+              <button className="bg-[#ee4430] p-5 rounded-full font-bold hover:bg-black hover:text-white transition duration-300">GET STARTED NOW</button>
             </div>
 
-            <div className="md:w-[32%] flex flex-col bg-white md:rounded-4xl p-10">
+            <div className="md:w-[32%] flex flex-col bg-white md:rounded-4xl p-10 dark:bg-black">
               <h1 className="text-4xl font-bold">Pro</h1>
               <p className="mt-2">Car service is essential for maintaining performance and longevity of vehicle. From oil changes</p>
 
@@ -209,10 +209,10 @@ export default function Home() {
                 <li>Your Event, Your Memories</li>
               </ul>
 
-              <button className="bg-[#EEEEEE] p-5 rounded-full font-bold hover:bg-black hover:text-white transition duration-300">GET STARTED NOW</button>
+              <button className="bg-[#ee4430] p-5 rounded-full font-bold hover:bg-black hover:text-white transition duration-300">GET STARTED NOW</button>
             </div>
 
-            <div className="md:w-[32%] flex flex-col bg-white md:rounded-4xl p-10">
+            <div className="md:w-[32%] flex flex-col bg-white md:rounded-4xl p-10 dark:bg-black">
               <h1 className="text-4xl font-bold">Ultra</h1>
               <p className="mt-2">Car service is essential for maintaining performance and longevity of vehicle. From oil changes</p>
 
@@ -228,7 +228,7 @@ export default function Home() {
                 <li>Your Event, Your Memories</li>
               </ul>
 
-              <button className="bg-[#EEEEEE] p-5 rounded-full font-bold hover:bg-black hover:text-white transition duration-300">GET STARTED NOW</button>
+              <button className="bg-[#ee4430] p-5 rounded-full font-bold hover:bg-black hover:text-white transition duration-300">GET STARTED NOW</button>
             </div>
           </div>
         </div>
